@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>videoControl</title>
+    <link rel="stylesheet" href="scss/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <video autoplay muted loop id="myVideo" type="video/mp4">
+                    <source src="asset/notHero.mp4">
+                    Your Browser does NOT support HTML5 video.
+                </video>
+                <div class="content">
+                    <h1>HeadLine</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, consequatur!</p>
+                    <!-- lorem10 쓰고 엔터 누르면 이거 뜸. 그냥 피그마 무작위로 텍스트 나오는 그거인 듯 -->
+                    <button id="myBtn" onclick="myFunction()">Pause</button>
+                    <script src="js/js.js"></script>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

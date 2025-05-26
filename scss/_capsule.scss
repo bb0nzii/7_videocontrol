@@ -1,0 +1,31 @@
+#myVideo{
+    position: fixed;
+    bottom: 0;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.content{
+    position: fixed;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+#myBtn{
+    width: 200px;
+    font-size: 1.1rem;
+    padding: 0.6rem;
+    border: none;
+    background: #000;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+#myBtn:hover{
+    background: #ddd;
+    color: #000;
+}
